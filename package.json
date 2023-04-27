@@ -1,0 +1,19 @@
+{
+  "name": "typescript_practice",
+  "version": "1.0.0",
+  "description": "Demonstrating the ability to write code using Typescript",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "Prathamesh Lakhapati",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@types/node": "^18.16.1"
+  }
+}
